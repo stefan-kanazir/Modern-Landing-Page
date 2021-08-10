@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {
+    "tailwind-scroll-behavior": "^1.0.0"
   }
 }
