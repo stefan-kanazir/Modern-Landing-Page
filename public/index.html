@@ -10,7 +10,7 @@
     <title>Bookmark Landing Page</title>
 </head>
 
-<body class="font-Poppins overflow-x-hidden	">
+<body class="font-Poppins overflow-x-hidden">
     <!-- Header -->
     <header>
         <nav class="container flex items-center py-4 mt-4 sm:mt-12">
@@ -235,10 +235,15 @@
             </div>
             <!-- FAQ Items -->
             <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
-                <div class="flex items-center border-b py-4">
-                    <span class="flex-1">What is a Bookmark?</span>
-                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+
+                <div class="faq-container cursor-pointer">
+                    <div class="flex items-center border-b py-4 faq-question">
+                        <span class="flex-1">What is a Bookmark?</span>
+                        <i class="text-bookmark-purple fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <p class="pt-2 pb-4 text-bookmark-grey border-b hidden faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis optio fugiat fuga, veritatis ut quis. Earum rerum nostrum totam doloremque.</p>
                 </div>
+
                 <div class="flex items-center border-b py-4">
                     <span class="flex-1">How can I request a new browser?</span>
                     <i class="text-bookmark-purple fas fa-chevron-down"></i>
@@ -295,6 +300,8 @@
           </div>
         </div>
     </footer>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
